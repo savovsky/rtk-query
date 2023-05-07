@@ -20,8 +20,15 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
+/coverage
 coverage
 *.lcov
+
+# production
+/build
+
+#mock data
+/src/mockups
 
 # nyc test coverage
 .nyc_output
@@ -74,6 +81,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local

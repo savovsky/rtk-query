@@ -1,0 +1,15 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/@miro/react-scripts/.*
+.*/node_modules/resolve/test/resolver/.*
+.*/node_modules/normalize-package-data/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='react-redux' -> '<PROJECT_ROOT>/flow/react-redux.js.flow'
+
+[strict]

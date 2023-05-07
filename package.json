@@ -1,0 +1,63 @@
+{
+  "name": "rtk-query",
+  "author": "Miroslav Savovski",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "RTK Query Playground",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savovsky/rtk-query.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@reduxjs/toolkit": "1.9.1",
+    "@miro/fel-js-utils": "^0.0.1",
+    "@miro/fel-ui": "^0.0.1",
+    "@miro/fel-font-faces": "^0.0.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.39",
+    "normalize.css": "^8.0.1",
+    "react": "16.10.0",
+    "react-dom": "16.9.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules build coverage",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "testcover": "yarn test --coverage --watchAll=false",
+    "testcovero": "open ./coverage/lcov-report/index.html",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./ --ext js --ext jsx",
+    "lint-fix": "eslint ./ --fix --ext js --ext jsx",
+    "lint-sass": "sass-lint src/scss/**/*.scss -v -q",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "@miro/fel-eslint": "^0.0.1",
+    "@sheerun/mutationobserver-shim": "^0.3.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
+    "babel-eslint": "10.0.3",
+    "eslint": "6.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "flow-bin": "0.118.0",
+    "msw": "^1.2.0",
+    "react-test-renderer": "^16.12.0",
+    "sass": "1.55.0",
+    "sass-lint": "^1.13.1"
+
+  },
+  "eslintConfig": {
+    "extends": "@miro/fel-eslint"
+  }
+}

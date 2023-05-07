@@ -1,0 +1,3 @@
+/* eslint-disable no-empty */
+declare midule 'react-redux' {
+}
