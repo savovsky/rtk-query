@@ -1,7 +1,7 @@
 [ignore]
-<PROJECT_ROOT>/node_modules/@miro/react-scripts/.*
-.*/node_modules/resolve/test/resolver/.*
-.*/node_modules/normalize-package-data/.*
+; <PROJECT_ROOT>/node_modules/@miro/react-scripts/.*
+; .*/node_modules/resolve/test/resolver/.*
+; .*/node_modules/normalize-package-data/.*
 
 [include]
 

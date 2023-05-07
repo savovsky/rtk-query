@@ -26,3 +26,16 @@ function App() {
 }
 
 export default App;
+
+// TODO add to package.json when the library i sready
+// "dependencies": {
+//     "@miro/fel-js-utils": "^0.0.1",
+//     "@miro/fel-ui": "^0.0.1",
+//     "@miro/fel-font-faces": "^0.0.1",
+// },
+// "devDependencies": {
+//     "@miro/fel-eslint": "^0.0.1",
+//   },
+//   "eslintConfig": {
+//     "extends": "@miro/fel-eslint"
+//   }

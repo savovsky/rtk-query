@@ -15,9 +15,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@reduxjs/toolkit": "1.9.1",
-    "@miro/fel-js-utils": "^0.0.1",
-    "@miro/fel-ui": "^0.0.1",
-    "@miro/fel-font-faces": "^0.0.1",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.39",
     "normalize.css": "^8.0.1",
@@ -41,7 +38,6 @@
     "flow": "flow"
   },
   "devDependencies": {
-    "@miro/fel-eslint": "^0.0.1",
     "@sheerun/mutationobserver-shim": "^0.3.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
@@ -54,10 +50,15 @@
     "msw": "^1.2.0",
     "react-test-renderer": "^16.12.0",
     "sass": "1.55.0",
-    "sass-lint": "^1.13.1"
-
-  },
-  "eslintConfig": {
-    "extends": "@miro/fel-eslint"
+    "sass-lint": "^1.13.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-flowtype": "5.10.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^1.16.4"
   }
 }
