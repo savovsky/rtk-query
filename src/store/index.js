@@ -20,3 +20,25 @@ const middleware = getDefaultMiddleware => {
         .concat(apiBooks.middleware);
 };
 
+/**
+ * For test purposes
+ * https://redux.js.org/usage/writing-tests
+ *
+ * Returns the initial app store state, mutated with the provided 'preloadedState'.
+ * @param {Object} preloadedState
+ * @returns `object`
+ */
+export const setupStore = preloadedState => {
+    return configureStore({
+        // rootReducer
+        reducer: combineReducers({
+            ...reducer,
+        }),
+        middleware,
+        preloadedState,
+    });
+};
+
+export const store = configureStore({ reducer, middleware });
+
+setupListeners(store.dispatch);

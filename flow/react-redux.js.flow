@@ -1,3 +1,4 @@
 /* eslint-disable no-empty */
 
-declare midule 'react-redux' {}
+declare module 'react-redux' {
+}

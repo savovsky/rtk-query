@@ -16,7 +16,7 @@ function App() {
 
     return (
         <>
-            <div className='app-container' data-testid='app-container'>
+            <div className="app-container" data-testid="app-container">
                 <SideBar />
                 <MainContainer />
             </div>
@@ -27,7 +27,7 @@ function App() {
 
 export default App;
 
-// TODO add to package.json when the library i sready
+// TODO add to package.json when the library is ready
 // "dependencies": {
 //     "@miro/fel-js-utils": "^0.0.1",
 //     "@miro/fel-ui": "^0.0.1",

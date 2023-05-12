@@ -11,8 +11,8 @@ afterEach(cleanup);
 describe('<App />', () => {
     test('Should rnder Component correctly', () => {
         const { getByTestId } = render(
-            <Provider store={store}>
-                <App />
+          <Provider store={store}>
+              <App />
             </Provider>,
         );
 
